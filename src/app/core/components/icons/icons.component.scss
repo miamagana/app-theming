@@ -1,0 +1,16 @@
+@import 'abstracts/variables';
+@import 'abstracts/mixins';
+@import 'abstracts/placeholders';
+@import 'base/typography';
+
+.title {
+  @extend %section-title;
+}
+.icons {
+  @extend %elements-row;
+  mat-icon {
+    height: var(--icon-size);
+    width: var(--icon-size);
+    font-size: var(--icon-size);
+  }
+}

@@ -1,0 +1,10 @@
+@import 'abstracts/variables';
+@import 'abstracts/mixins';
+@import 'base/typography';
+
+.header {
+  span {
+    @extend .font-xxl;
+    color: $white;
+  }
+}

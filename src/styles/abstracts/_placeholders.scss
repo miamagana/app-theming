@@ -1,0 +1,18 @@
+@import 'abstracts/variables';
+@import 'abstracts/mixins';
+@import 'base/typography';
+
+%section-title {
+  @include push-top(4);
+  @include push-bottom(4);
+  border-bottom: 1px solid grey;
+  span {
+    @include push-left(4);
+    @extend .font-bold;
+    @extend .font-xxl;
+  }
+}
+
+%elements-row {
+  @include pad-all(0, 4, 0, 4);
+}
