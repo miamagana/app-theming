@@ -1,0 +1,25 @@
+// SPACING
+$pad-margin-multiplier: 4px;
+
+// THEME
+:root {
+  --theme-primary: #0caddc;
+  --theme-primary-light: #77d0e8;
+  --theme-primary-dark: #0070ad;
+  --theme-secondary: #565656;
+  --theme-secondary-light: #838383;
+  --theme-secondary-dark: #2d2d2d;
+  --white: #ffffff;
+  --white-grey: #f3f3f3;
+  --white-grey-dark: #e1e1e1;
+}
+
+// FONT-SIZES
+$font-xs: 10px;
+$font-s: 12px;
+$font-m: 14px;
+$font-l: 16px;
+$font-lg: 20px;
+$font-xl: 24px;
+$font-xxl: 30px;
+$font-xxxl: 34px;
