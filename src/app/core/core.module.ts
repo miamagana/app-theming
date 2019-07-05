@@ -14,6 +14,7 @@ import { MatDividerModule } from '@angular/material/divider';
 import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
 import { MatProgressBarModule } from '@angular/material/progress-bar';
 import { FlexLayoutModule } from '@angular/flex-layout';
+import { ColorPickerModule } from 'ngx-color-picker';
 
 @NgModule({
   declarations: [
@@ -34,6 +35,7 @@ import { FlexLayoutModule } from '@angular/flex-layout';
     MatProgressSpinnerModule,
     MatProgressBarModule,
     FlexLayoutModule,
+    ColorPickerModule,
   ],
 })
 export class CoreModule {}

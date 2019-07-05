@@ -1,3 +1,90 @@
+@import 'abstracts/variables';
+
 .header.mat-toolbar {
   background-color: var(--theme-primary);
+}
+//PRIMARY BUTTONS
+.theme-primary.mat-button {
+  color: var(--theme-primary);
+}
+.theme-primary.mat-raised-button {
+  background-color: var(--theme-primary);
+  color: $white;
+}
+.theme-primary.mat-stroked-button {
+  color: var(--theme-primary);
+  border-color: var(--theme-primary);
+}
+
+.theme-primary-light.mat-button {
+  color: var(--theme-primary);
+  filter: brightness(150%);
+}
+.theme-primary-light.mat-raised-button {
+  background-color: var(--theme-primary);
+  color: $white;
+  filter: brightness(150%);
+}
+.theme-primary-light.mat-stroked-button {
+  color: var(--theme-primary);
+  border-color: var(--theme-primary);
+  filter: brightness(150%);
+}
+
+.theme-primary-dark.mat-button {
+  color: var(--theme-primary);
+  filter: brightness(50%);
+}
+.theme-primary-dark.mat-raised-button {
+  background-color: var(--theme-primary);
+  color: $white;
+  filter: brightness(50%);
+}
+.theme-primary-dark.mat-stroked-button {
+  color: var(--theme-primary);
+  border-color: var(--theme-primary);
+  filter: brightness(50%);
+}
+
+//SECONDARY BUTTONS
+.theme-secondary.mat-button {
+  color: var(--theme-secondary);
+}
+.theme-secondary.mat-raised-button {
+  background-color: var(--theme-secondary);
+  color: $white;
+}
+.theme-secondary.mat-stroked-button {
+  color: var(--theme-secondary);
+  border-color: var(--theme-secondary);
+}
+
+.theme-secondary-light.mat-button {
+  color: var(--theme-secondary);
+  filter: brightness(150%);
+}
+.theme-secondary-light.mat-raised-button {
+  background-color: var(--theme-secondary);
+  color: $white;
+  filter: brightness(150%);
+}
+.theme-secondary-light.mat-stroked-button {
+  color: var(--theme-secondary);
+  border-color: var(--theme-secondary);
+  filter: brightness(150%);
+}
+
+.theme-secondary-dark.mat-button {
+  color: var(--theme-secondary);
+  filter: brightness(50%);
+}
+.theme-secondary-dark.mat-raised-button {
+  background-color: var(--theme-secondary);
+  color: $white;
+  filter: brightness(50%);
+}
+.theme-secondary-dark.mat-stroked-button {
+  color: var(--theme-secondary);
+  border-color: var(--theme-secondary);
+  filter: brightness(50%);
 }

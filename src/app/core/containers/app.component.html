@@ -3,6 +3,10 @@
     <app-header></app-header>
     <app-progress [spinner]="false" *ngIf="false"></app-progress>
     <app-body></app-body>
-    <app-footer></app-footer>
+    <app-footer
+      (primary)="changePrimaryColor($event)"
+      (secondary)="changeSecondaryColor($event)"
+      (size)="changeIconSize($event)"
+    ></app-footer>
   </div>
 </div>
