@@ -1,0 +1,12 @@
+@import 'abstracts/variables';
+@import 'abstracts/mixins';
+
+.footer {
+  @include pad-all(10, 10, 10, 10);
+
+  > div {
+    > span {
+      @include push-right(4);
+    }
+  }
+}
