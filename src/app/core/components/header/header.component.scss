@@ -5,6 +5,6 @@
 .header {
   span {
     @extend .font-xxl;
-    color: $white;
+    color: var(--theme-secondary);
   }
 }

@@ -1,4 +1,4 @@
-import { Component, OnInit, Output, EventEmitter } from '@angular/core';
+import { Component, Output, EventEmitter } from '@angular/core';
 
 @Component({
   selector: 'app-footer',
@@ -11,7 +11,6 @@ export class FooterComponent {
   @Output() size: EventEmitter<string> = new EventEmitter<string>();
   primaryColor = '#0caddc';
   secondaryColor = '#0129ac';
-  iconSize = 60;
 
   changePrimaryColor(color: string): void {
     this.primaryColor = color;
@@ -20,12 +19,5 @@ export class FooterComponent {
   changeSecondaryColor(color: string): void {
     this.secondaryColor = color;
     this.secondary.emit(color);
-  }
-  changeIconSize(event: any): void {
-    const size: number = parseInt(event.target.value, 10);
-    if (size >= 16 && size <= 200) {
-      this.iconSize = size;
-      this.size.emit(`${size}px`);
-    }
   }
 }

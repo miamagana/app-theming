@@ -8,21 +8,11 @@
     />
   </div>
   <div fXLayout="column">
-    <span>Secondary Color</span>
+    <span>Font Color</span>
     <input
       [(colorPicker)]="secondaryColor"
       [style.background]="secondaryColor"
       (colorPickerChange)="changeSecondaryColor($event)"
-    />
-  </div>
-  <div fXLayout="column">
-    <span>Icon Size</span>
-    <input
-      type="number"
-      (change)="changeIconSize($event)"
-      [value]="iconSize"
-      min="16"
-      max="200"
     />
   </div>
 </div>
